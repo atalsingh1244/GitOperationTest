@@ -33,6 +33,12 @@ class ViewController: UIViewController {
             
         }
     }
+    
+    private func basicOperation() {
+        
+        print("Basic operation handling")
+    }
+    
 
 
 }
