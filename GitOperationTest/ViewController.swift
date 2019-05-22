@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         enumOperationTest(type: OperationType.critical)
+        print("Hello world, just added changes")
         // Do any additional setup after loading the view, typically from a nib.
     }
     
