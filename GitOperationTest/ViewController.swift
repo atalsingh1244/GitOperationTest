@@ -19,7 +19,18 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        enumOperationTest(type: OperationType.critical)
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    private func enumOperationTest(type:OperationType ) {
+        
+        switch type {
+        case .normal: print("Hey man! It's normal")
+        case .critical: print("Hey it's critical")
+        case .medium: print("Hey It's nprmal")
+            
+        }
     }
 
 
