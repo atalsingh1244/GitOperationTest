@@ -8,6 +8,13 @@
 
 import UIKit
 
+enum OperationType {
+    
+    case normal
+    case medium
+    case critical
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
